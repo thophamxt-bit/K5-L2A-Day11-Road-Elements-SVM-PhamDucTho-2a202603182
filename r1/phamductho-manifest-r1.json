@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "phamductho",
+  "revision": 1,
+  "created_at": "2026-11-20T18:52:45+00:00",
+  "files": [
+    {
+      "file": "phamductho-front.zip",
+      "bytes": 43557,
+      "sha256": "3786d753d13b2d34ffdf26ba5384ac99ba2aa2e0cebfff3913bc1ca341079f39",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 4,
+        "drivable": 26,
+        "lane": 29,
+        "road_curb": 4,
+        "traffic_light": 21,
+        "traffic_sign": 19
+      }
+    },
+    {
+      "file": "phamductho-fisheye.zip",
+      "bytes": 26749,
+      "sha256": "340c54b95aa73afd64e9b497c71af7238fdb50f132370128e7a9605e83a4819e",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 8,
+      "shapes_by_label": {
+        "crosswalk": 7,
+        "drivable": 10,
+        "lane": 11,
+        "road_curb": 9,
+        "traffic_light": 5,
+        "traffic_sign": 2
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 4,
+    "chính": 0,
+    "nhẹ": 2
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
